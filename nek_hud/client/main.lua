@@ -14,8 +14,8 @@ AddEventHandler('client:system:getHour', function(hora)
     time = hora
 end)
 
-RegisterNetEvent("esx_status:onTick")
-AddEventHandler("esx_status:onTick", function(status)
+RegisterNetEvent("nek_hud:onTick")
+AddEventHandler("nek_hud:onTick", function(status)
 
     TriggerEvent('esx_status:getStatus', 'hunger', function(status)
         food = status.val / 10000
