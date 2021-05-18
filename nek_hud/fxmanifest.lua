@@ -1,5 +1,7 @@
 fx_version 'adamant'
 games { 'gta5' }
+author 'Nekix#2021'
+description 'This is my first HUD pls rate it <3'
 
 shared_scripts { 'config/*.lua' }
 client_scripts { 'client/*.lua' }
