@@ -10,3 +10,6 @@ To use the HUD you must replace in the client / main.lua of the esx_status, in l
 by
 
 <code> TriggerEvent('nek_hud:onTick', GetStatusData(true)) </code>
+
+
+There are 3 commands that you can use to enable or disable HUD
