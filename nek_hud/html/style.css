@@ -1,0 +1,117 @@
+#job {
+    position: fixed;
+    top: -0.5%;
+    left: 45%;
+    color: white;
+    font-size: 160%;
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 10px solid rgba(255, 255, 255, 0.014);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#hour {
+    position: fixed;
+    font-size: 350%;
+    color: rgb(0, 0, 0);
+    top: 2%;
+    left: 93%;
+}
+
+#id {
+    position: fixed;
+    font-size: 100%;
+    top: 79%;
+    right: 1.5%;
+    color: white;
+    border-radius: 100px;
+}
+
+#health {
+    position: fixed;
+    font-size: 100%;
+    top: 83%;
+    right: 1.5%;
+    color: white;
+    border-radius: 100px;
+}
+
+#hungher {
+    position: fixed;
+    font-size: 100%;
+    top: 87%;
+    right: 1.5%;
+    color: white;
+    border-radius: 100px;
+}
+
+#thirst {
+    position: fixed;
+    font-size: 100%;
+    top: 91%;
+    right: 1.5%;
+    color: white;
+    border-radius: 100px;
+}
+
+#stress {
+    position: fixed;
+    font-size: 100%;
+    opacity: 1;
+    top: 95%;
+    right: 1.5%;
+    color: white;
+    border-radius: 100px;
+}
+
+#player {
+    position: fixed;
+    right: 1%;
+    width: 3.5%;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 20px;
+    animation: rgb 4s infinite;
+}
+
+@keyframes rgb{
+
+	0%{ 
+		border: solid 1px rgba(255,0,0,0.70); 
+	}
+	8%{ 
+		border: solid 1px rgba(255,127,0,0.70); 
+	}
+	16%{ 
+		border: solid 1px rgba(230,205,23,0.70); 
+	}
+	25%{ 
+		border: solid 1px rgba(127,255,0,0.70); 
+	}
+	33%{ 
+		border: solid 1px rgba(0,255,0,0.70); 
+	}
+	41%{ 
+		border: solid 1px rgba(0,255,127,0.70); 
+	}
+	50%{ 
+		border: solid 1px rgba(0,255,255,0.70); 
+	}
+	58%{ 
+		border: solid 1px rgba(0,127,255,0.70); 
+	}
+	66%{ 
+		border: solid 1px rgba(0,0,255,0.70); 
+	}
+	75%{ 
+		border: solid 1px rgba(127,0,255,0.70); 
+	}
+	83%{ 
+		border: solid 1px rgba(255,0,255,0.70); 
+	}
+	91%{ 
+		border: solid 1px rgba(255,0,127,0.70); 
+	}
+	100%{
+		border: solid 1px rgba(255,0,0,0.70); 
+	}
+}
